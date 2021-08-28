@@ -13,7 +13,7 @@
 			<p:outputLabel value="Nome" for="nome" />
 			<p:inputText id="nome" value="#{inversaoNomeBean.nome}">
 				<p:ajax listener="#{inversaoNomeBean.inveter}"
-					update="nomeInvertido quantPalavras" event="keyup" />
+					update="nomeInvertido, quantPalavras" event="keyup" />
 			</p:inputText>
 		</p:panelGrid>
 		<br />
